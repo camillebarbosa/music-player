@@ -1,0 +1,87 @@
+:root{
+    background-color:#e4c1d6;
+    text-align: center;
+    max-width: 1280px;
+    margin: 0 auto;
+    font-family:sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    background-image: url('/assets/wallpaper-roxo.webp');
+    background-repeat: no-repeat;
+    background-size: cover; /* ou use 'contain' se quiser mostrar tudo */
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+body{
+    margin: 0;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;     
+    justify-content: center; 
+  
+}
+
+.music-player{
+    padding:20px;
+    border: 2px transparen;
+    border-radius: 10px;
+    text-align: center;
+    width: 25rem;
+    height: 37rem;
+    background-color:   #fef5ee;
+    
+}
+.music-player h1{
+    color: #a6a6a6;
+        font-size: 1.5rem;
+        line-height: 1.1;
+}
+
+.music-player h2{
+   color: #545454;
+    font-size: 1.2rem;
+    line-height: 1.1;
+ 
+}
+.music-player img{
+    margin:2rem;
+    width: 20rem;
+
+}
+.player{
+    margin:0;
+    display: flex;
+    border: 3px solid #e4c1d6;
+    border-radius: 10px;
+    background-color: #a2b8cf;
+}
+
+.seta-direita button,
+.seta-esquerda button,
+.play button {
+    border: none;
+    background-color: #a2b8cf;
+    padding: 0;
+    padding-top:4rem;
+    margin: 0;
+    width: 130px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor:grabbing;
+}
+.player img{
+    width: 90px;
+
+}
+.seta-direita img,
+.seta-esquerda img {
+    display: block;
+    width: 70px;
+    height: auto;
+}
+  
