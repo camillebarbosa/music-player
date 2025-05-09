@@ -8,10 +8,9 @@
     font-weight: 400;
     background-image: url('/assets/wallpaper-roxo.webp');
     background-repeat: no-repeat;
-    background-size: cover; /* ou use 'contain' se quiser mostrar tudo */
+    background-size: cover; 
     background-position: center;
     background-attachment: fixed;
-
 }
 
 body{
